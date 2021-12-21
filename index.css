@@ -1,0 +1,23 @@
+.background {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 0px;
+  background-size: cover;
+  height: 100vh;
+}
+.headin {
+  color: white;
+  font-weight: 30px;
+}
+.img-con {
+  height: 200px;
+  width: 200px;
+}
+@media screen and (min-width: 768px) {
+  .headin {
+    font-size: 60px;
+  }
+}
